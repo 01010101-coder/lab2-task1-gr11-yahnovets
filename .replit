@@ -8,3 +8,14 @@ run = ["sh", "-c", "gcc -o hello src/main.c src/find_last_position.c"]
 
 [nix]
 channel = "stable-24_05"
+
+[workflows]
+runButton = "Run"
+
+[[workflows.workflow]]
+name = "Run"
+author = 2745946
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "gcc -o hello src/main.c src/find_last_position.c && ./hello"

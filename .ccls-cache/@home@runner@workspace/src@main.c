@@ -2,10 +2,10 @@
 
 /* Автор: Владислав Яхновец */
 
+#include <stdio.h>
 #include "find_last_position.h"
 
 int main() {
-		printf("Hello, world!");
 		/* Примеры предложений */
 		char sentence1[] = "Шарик полетел в лес.";
 		char sentence2[] = "Я пошел домой, ш-ш-ш.";

@@ -5,7 +5,9 @@
 #ifndef FIND_LAST_POSITION_H
 #define FIND_LAST_POSITION_H
 
-/* Функция для нахождения последнего вхождения символа в строку */
-int find_last_position(const char* sentence, wchar_t target);
+#include <stdio.h>
 
-#endif
+/* Функция для нахождения последнего вхождения символа в строку */
+int find_last_position(const char* sentence, const char target);
+
+#endif /* FIND_LAST_POSITION_H */

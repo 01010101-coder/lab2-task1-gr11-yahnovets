@@ -2,6 +2,7 @@
 
 /* Автор: Владислав Яхновец */
 
+#include <stdio.h>
 #include "find_last_position.h"
 
 int main() {

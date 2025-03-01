@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-/* Функция для нахождения последнего вхождения подстроки в строку */
-int find_last_position(const char* sentence, const char* target);
+/* Функция для нахождения последнего вхождения символа в строку */
+int find_last_position(const char* sentence, const char target);
 
 #endif /* FIND_LAST_POSITION_H */

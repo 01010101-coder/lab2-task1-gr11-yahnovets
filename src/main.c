@@ -13,7 +13,7 @@ void print_result(const char* sentence1, const char* sentence2, const char* targ
     printf("Предложение 1: \"%s\"\n", sentence1);
     printf("Предложение 2: \"%s\"\n", sentence2);
     
-    char target = target_str[0]; // Берем первый символ из строки
+    wchar_t target = (wchar_t)target_str[0]; // Берем первый символ из строки
     
     int pos1 = find_last_position(sentence1, target);
     int pos2 = find_last_position(sentence2, target);

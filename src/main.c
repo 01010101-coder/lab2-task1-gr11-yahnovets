@@ -48,8 +48,8 @@ int main() {
     
     /* Пример с английскими предложениями */
     printf("\n=== Пример 3 (English) ===\n");
-    char sentence5[] = "She sells seashells by the seashore.";
-    char sentence6[] = "The sun shines brightly in the summer sky.";
+    char sentence5[] = "sssssss";
+    char sentence6[] = "sss";
     print_result(sentence5, sentence6, 's');
 
     return 0;

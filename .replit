@@ -1,9 +1,10 @@
+
 language = "c"
-run = "gcc -o hello main.c"
+run = "gcc -o hello src/main.c src/find_last_position.c"
 modules = ["c-clang14"]
 
 [deployment]
-run = ["sh", "-c", "gcc -o hello main.c"]
+run = ["sh", "-c", "gcc -o hello src/main.c src/find_last_position.c"]
 
 [nix]
 channel = "stable-24_05"

@@ -34,7 +34,7 @@ void print_result(const char* sentence1, const char* sentence2, char target) {
 }
 
 int main() {
-    /* Примеры предложений */
+    /* Примеры предложений на русском */
     char sentence1[] = "Шарик полетел в лес.";
     char sentence2[] = "Я пошел домой, ш-ш-ш.";
     
@@ -45,6 +45,12 @@ int main() {
     char sentence3[] = "Машина едет по шоссе.";
     char sentence4[] = "Школьник идет в школу.";
     print_result(sentence3, sentence4, 'ш');
+    
+    /* Пример с английскими предложениями */
+    printf("\n=== Пример 3 (English) ===\n");
+    char sentence5[] = "She sells seashells by the seashore.";
+    char sentence6[] = "The sun shines brightly in the summer sky.";
+    print_result(sentence5, sentence6, 's');
 
     return 0;
 }
